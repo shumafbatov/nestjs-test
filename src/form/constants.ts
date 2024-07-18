@@ -29,4 +29,7 @@ export const FAKE_DATA = [
   },
 ];
 
-export const ERROR_EMAIL = 'Email is empty!';
+export const ERROR_EMAIL = 'incorrect email!';
+
+export const EMAIL_REGEXP =
+  /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/iu;
